@@ -18,7 +18,8 @@ import { NgChartsModule } from 'ng2-charts';
     NgChartsModule
   ],
   exports: [
-    IncrementadorComponent
+    IncrementadorComponent,
+    DonaComponent
   ]
 })
 export class ComponentsModule { }
