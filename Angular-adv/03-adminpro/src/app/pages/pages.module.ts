@@ -7,6 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SharedModule } from '../shared/shared.module';
 // import { ApproutingModule } from '../app-routing.module';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -22,7 +23,8 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     SharedModule,
     // ApproutingModule // Podríamos importar este sin problema, pero como sólo necesitamos el router-outlet, con el routermodule nos valdría
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
   exports: [
     DashboardComponent,
