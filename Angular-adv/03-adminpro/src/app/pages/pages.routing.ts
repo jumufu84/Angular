@@ -5,6 +5,8 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { ProgressComponent } from './progress/progress.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 export const routes: Routes = [
   {
@@ -13,7 +15,9 @@ export const routes: Routes = [
       { path:'', component: DashboardComponent },
       { path:'progress', component: ProgressComponent },
       { path:'grafica1', component: Grafica1Component },
-      { path:'account-settings', component: AccountSettingsComponent }
+      { path:'account-settings', component: AccountSettingsComponent },
+      { path:'promesas', component: PromesasComponent},
+      { path:'rxjs', component: RxjsComponent}
     ]
   },
 ]
