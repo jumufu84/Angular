@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { PagesModule } from './pages/pages.module';
 import { AuthModule } from './auth/auth.module';
+import { RegisterComponent } from './auth/register/register.component';
+import { LoginComponent } from './auth/login/login.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NopagefoundComponent
+    NopagefoundComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
