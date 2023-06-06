@@ -12,7 +12,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { PerfilComponent } from './perfil/perfil.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { UsuariosComponent } from './mantenimientos/usuarios/usuarios.component';
 
 
 
@@ -26,7 +27,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     AccountSettingsComponent,
     PromesasComponent,
     RxjsComponent,
-    PerfilComponent
+    PerfilComponent,
+    UsuariosComponent
   ],
   imports: [
     CommonModule,
@@ -34,7 +36,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     // ApproutingModule // Podríamos importar este sin problema, pero como sólo necesitamos el router-outlet, con el routermodule nos valdría
     RouterModule,
     ComponentsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   exports: [
     DashboardComponent,

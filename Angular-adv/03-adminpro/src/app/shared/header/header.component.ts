@@ -16,7 +16,7 @@ export class HeaderComponent {
   constructor(
     private userSrv: UsuarioService
   ) {
-    console.log(userSrv.usuario.imagenUrl);
+    // console.log(userSrv.usuario.imagenUrl);
     this.usuario = userSrv.usuario;
   }
 
